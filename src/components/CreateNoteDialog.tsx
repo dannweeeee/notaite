@@ -21,17 +21,17 @@ const CreateNoteDialog = (props: Props) => {
             <DialogContent>
                 <DialogHeader>
                     <DialogTitle>
-                        Create New Note Book 📓
+                        Create a New Note Book 📓
                     </DialogTitle>
                     <DialogDescription>
-                        Create a new note by clicking the button below! 🤓
+                        Enter the Note Book name below! 🤓
                     </DialogDescription>
                 </DialogHeader>
                 <form>
                     <Input 
                         value={input} 
                         onChange={(e) => setInput(e.target.value)} 
-                        placeholder="Name..." 
+                        placeholder="Name...😌" 
                     />
                     <div className="h-4"></div>
                     <div className="flex items-center gap-3">

@@ -2,15 +2,17 @@
 
 import React from 'react'
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from './ui/dialog'
-import { Plus } from 'lucide-react'
+import { Loader2, Plus } from 'lucide-react'
 import { Input } from './ui/input'
 import { Button } from './ui/button'
 import { useMutation } from '@tanstack/react-query'
 import axios from 'axios'
+import { useRouter } from 'next/navigation'
 
 type Props = {}
 
 const CreateNoteDialog = (props: Props) => {
+    const router = useRouter();
     const [ input, setInput ] = React.useState('') // create a new state variable called input and set it to an empty string
     const createNotebook = useMutation({
         mutationFn: async () => {
@@ -29,10 +31,13 @@ const CreateNoteDialog = (props: Props) => {
         }
         createNotebook.mutate(undefined, {
             onSuccess: ({note_id}) => {
-                console.log('Yay! Note Book Created! 📓', {note_id});
+                console.log('Created new notebook', {note_id});
+                router.push(`/notebook/${note_id}`);
             },
             onError: (error: any) => {
                 console.error(error);
+                window.alert("Failed to create new notebook");
+                window.alert("Oops! You must be trying to create a Notebook. DM me on @dannweeeee on Twitter/X and I'll activate this function for you!");
             }
         })
     };
@@ -62,8 +67,15 @@ const CreateNoteDialog = (props: Props) => {
                     />
                     <div className="h-4"></div>
                     <div className="flex items-center gap-3">
-                        <Button type='reset' variant={ 'secondary' }>Cancel</Button>
-                        <Button type="submit" className='bg-green-600'>Create</Button>
+                        <Button type='reset' variant={ 'secondary' }>
+                            Cancel
+                        </Button>
+                        <Button type="submit" className='bg-green-600' disabled={createNotebook.isLoading}>
+                            {createNotebook.isLoading && (
+                                <Loader2 className="w-4 h-4 mr-2 animate-spin" />
+                            )}
+                            Create
+                        </Button>
                     </div>
                 </form>
             </DialogContent>

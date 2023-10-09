@@ -15,7 +15,7 @@ const DashboardPage = (props: Props) => {
             <div className="grainy min-h-screen">
             <Link href="/" className="flex items-center">
                 <Image src="/assets/logo.svg" alt="logo" width={60} height={60} />
-                <p className="font-semibold text-2xl text-center max-xs:hidden">By Dann</p>
+                <p className="font-semibold text-1xl text-center max-xs:hidden">Notion Clone by Dann</p>
             </Link>
                 <div className="max-w-7xl mx-auto p-10">
                     <div className="h-14"></div>

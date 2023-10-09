@@ -12,11 +12,11 @@ export default function Home() {
    <div className="bg-gradient-to-r min-h-screen grainy from-rose-100 to-teal-100">
       <Link href="/" className="flex items-center">
         <Image src="/assets/logo.svg" alt="logo" width={60} height={60} />
-        <p className="font-semibold text-2xl text-center max-xs:hidden">By Dann</p>
+        <p className="font-semibold text-1xl text-center max-xs:hidden">Notion Clone by Dann</p>
       </Link>
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
         <h1 className="font-semibold text-7xl text-center">
-          Notion
+          Notion Clone
         </h1>
         <div className="mt-4"></div>
 

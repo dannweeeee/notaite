@@ -1,3 +1,4 @@
+import CreateNoteDialog from '@/components/CreateNoteDialog'
 import { Button } from '@/components/ui/button'
 import { Separator } from '@/components/ui/separator'
 import { UserButton } from '@clerk/nextjs'

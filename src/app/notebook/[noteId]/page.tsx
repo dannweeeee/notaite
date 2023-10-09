@@ -1,3 +1,4 @@
+import TipTapEditor from '@/components/TipTapEditor'
 import { Button } from '@/components/ui/button'
 import { clerk } from '@/lib/clerk-server'
 import { db } from '@/lib/db'
@@ -51,6 +52,7 @@ const NotebookPage = async ({ params: { noteId } }: Props) => { // fetch the not
             <div className="h-4"></div>
             <div className="border-stone-200 shadow-xl border rounded-lg px-16 py-8 w-full">
                 { /* Editor */ }
+                <TipTapEditor />
             </div>
         </div>
     </div>

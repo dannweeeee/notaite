@@ -5,11 +5,38 @@ import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, Di
 import { Plus } from 'lucide-react'
 import { Input } from './ui/input'
 import { Button } from './ui/button'
+import { useMutation } from '@tanstack/react-query'
+import axios from 'axios'
 
 type Props = {}
 
 const CreateNoteDialog = (props: Props) => {
     const [ input, setInput ] = React.useState('') // create a new state variable called input and set it to an empty string
+    const createNotebook = useMutation({
+        mutationFn: async () => {
+          const response = await axios.post("/api/createNoteBook", {
+            name: input,
+          });
+          return response.data;
+        },
+      }); // create a new mutation called createNoteBook
+
+    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault() // to not submit the actual form
+        if(input === '') {
+            window.alert('Please enter a name for the note book! 🤓')
+            return;
+        }
+        createNotebook.mutate(undefined, {
+            onSuccess: ({note_id}) => {
+                console.log('Yay! Note Book Created! 📓', {note_id});
+            },
+            onError: (error: any) => {
+                console.error(error);
+            }
+        })
+    };
+
     return (
         <Dialog>
             <DialogTrigger>
@@ -27,7 +54,7 @@ const CreateNoteDialog = (props: Props) => {
                         Enter the Note Book name below! 🤓
                     </DialogDescription>
                 </DialogHeader>
-                <form>
+                <form onSubmit={handleSubmit}>
                     <Input 
                         value={input} 
                         onChange={(e) => setInput(e.target.value)} 

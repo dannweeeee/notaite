@@ -1,6 +1,6 @@
 # Notion AI Clone
 
-<img width="1440" alt="Screenshot 2023-10-10 at 1 41 46 PM" src="https://github.com/dannweeeee/notion/assets/42776950/134f61a7-ace5-4453-b8e5-1f22b3aa6c9e">
+<img width="1440" alt="Screenshot 2023-10-10 at 10 04 43 PM" src="https://github.com/dannweeeee/notion/assets/42776950/793fe05f-f41f-4d59-88e9-5aa4ae67ea9c">
 
 ## Overview
 

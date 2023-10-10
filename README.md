@@ -12,7 +12,7 @@ Visit the Deployed Vercel Website at: https://notion-by-dann.vercel.app/
 
 - **AI-Generated Thumbnails**: Enhance the visual appeal of notebooks with DALL·E, an AI model that generates thumbnails based on notebook titles.
 
-- **Auto-Completion with OpenAI**: Experience efficient content creation with OpenAI's assistance. Press `Shift + A` to leverage AI-powered auto-completion suggestions, making notebook entry a breeze.
+- **Auto-Completion with OpenAI**: Experience efficient notebook writing with OpenAI's auto complete assistance. Press `Shift + A` to leverage AI-powered auto-completion suggestions.
 
 - **Vercel AI SDK Integration**: Optimise deployment and hosting with the Vercel AI SDK.
 

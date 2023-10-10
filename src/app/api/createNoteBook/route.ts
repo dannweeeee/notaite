@@ -6,6 +6,8 @@ import { NextResponse } from 'next/server'
 
 // map to /api/createNoteBook
 
+export const runtime = "edge";
+
 export async function POST(req: Request) {
     const { userId } = auth(); // get the user id from the request
 

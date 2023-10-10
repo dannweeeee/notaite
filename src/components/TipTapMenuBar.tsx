@@ -1,5 +1,5 @@
 import { Editor } from '@tiptap/react'
-import { Bold, Code, CodepenIcon, Heading1, Heading2, Heading3, Italic, List, ListOrdered, Quote, Redo, Strikethrough, Undo } from 'lucide-react'
+import { Bold, Code, CodepenIcon, Heading1, Heading2, Heading3, Italic, List, ListOrdered, Quote, Strikethrough} from 'lucide-react'
 import React from 'react'
 import { Button } from './ui/button'
 
@@ -79,18 +79,6 @@ const TipTapMenuBar = ({ editor }: Props) => {
             className={editor.isActive("blockquote") ? "is-active" : ""}
         >
             <Quote className="w-4 h-4" />
-      </Button>
-      <Button
-            onClick={() => editor.chain().focus().undo().run()}
-            disabled={!editor.can().chain().focus().undo().run()}
-        >
-            <Undo className="w-4 h-4" />
-      </Button>
-      <Button
-            onClick={() => editor.chain().focus().redo().run()}
-            disabled={!editor.can().chain().focus().redo().run()}
-        >
-            <Redo className="w-4 h-4" />
       </Button>
     </div>
   )

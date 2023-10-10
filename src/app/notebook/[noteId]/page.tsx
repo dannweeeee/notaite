@@ -1,5 +1,5 @@
-import TipTapEditor from '@/components/TipTapEditor'
 import DeleteButton from '@/components/DeleteButton'
+import TipTapEditor from '@/components/TipTapEditor'
 import { Button } from '@/components/ui/button'
 import { clerk } from '@/lib/clerk-server'
 import { db } from '@/lib/db'

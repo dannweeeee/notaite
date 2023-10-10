@@ -10,15 +10,15 @@ Visit the Deployed Vercel Website at: https://notion-by-dann.vercel.app/
 
 ## Features
 
-- **AI-Generated Thumbnails**: Enhance the visual appeal of notebooks with DALL-E, an AI model that generates thumbnails based on notebook titles.
+- **AI-Generated Thumbnails**: Enhance the visual appeal of notebooks with DALL·E, an AI model that generates thumbnails based on notebook titles.
 
-- **Auto-Completion with OpenAI**: Experience efficient content creation with OpenAI's assistance. Press "Shift + A" to leverage AI-powered auto-completion suggestions, making notebook entry a breeze.
+- **Auto-Completion with OpenAI**: Experience efficient content creation with OpenAI's assistance. Press `Shift + A` to leverage AI-powered auto-completion suggestions, making notebook entry a breeze.
 
-- **Vercel AI SDK Integration**: Optimise deployment and hosting with the Vercel AI SDK. Enhance application functionality and performance with advanced Vercel capabilities.
+- **Vercel AI SDK Integration**: Optimise deployment and hosting with the Vercel AI SDK.
 
-- **Neon PostgreSQL Database and DrizzleORM**: Leverage Neon, an open-source PostgreSQL database, for robust data management. DrizzleORM enhances database interactions, ensuring data integrity and reliability.
+- **Neon PostgreSQL Database && DrizzleORM**: Leverage Neon, an open-source PostgreSQL database, for robust data management. DrizzleORM enhances database interactions, ensuring data integrity and reliability.
 
-- **Firebase Integration**: Store and manage temporary DALL-E image URLs as permanent links in Firebase Database Storage. Ensure seamless retrieval and persistence of AI-generated images.
+- **Firebase Integration**: Store and manage temporary DALL·E image URLs as permanent links in Firebase Database Storage. Ensure seamless retrieval and persistence of AI-generated images.
 
 ## Technologies
 
@@ -30,7 +30,7 @@ Visit the Deployed Vercel Website at: https://notion-by-dann.vercel.app/
 
 ### Backend
 
-- **Neon (Open-source PostgreSQL database)**
+- **Neon**
 - **DrizzleORM**
 - **Firebase**
 
@@ -44,8 +44,8 @@ Visit the Deployed Vercel Website at: https://notion-by-dann.vercel.app/
 
 Tools that I used:
 
-- [**Clerk**](https://clerk.com/): Simplify user authentication and authorization.
-- [**Shadcn**](https://ui.shadcn.com/): Enhance user interface and user experience functionality with Shadcn.
+- [**Clerk**](https://clerk.com/): Simplified user authentication and authorization.
+- [**Shadcn**](https://ui.shadcn.com/): Enhanced user interface and user experience functionality with Shadcn.
 - [**Typewriter-Effect**](https://typewriter-effect.com): Added engaging typing animations to the user interface.
 
 ## Installation

@@ -6,7 +6,7 @@
 
 The Full Stack Next.js 13 Notion AI Clone is designed to replicate the functionality and user experience of Notion, enriched with artificial intelligence capabilities. Powered by an extensive tech stack including React, Next.js, TypeScript, DrizzleORM, Neon, Firebase, DALL·E, OpenAI, this project aims to deliver a sophisticated and feature-rich alternative.<br>
 <br>
-Visit the Deployed Vercel Website at: https://notion-by-dann.vercel.app/
+Visit the Deployed Vercel Website at: https://notion-by-dann.vercel.app/ (DM me on Twitter/X: @dannweeeee to reactivate the AI Feature)
 
 ## Features
 

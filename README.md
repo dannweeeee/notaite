@@ -8,13 +8,13 @@ The Full Stack Next.js 13 NotAIte is a Note-Taking Tool, enriched with artificia
 <br />
 **Visit the Deployed Vercel Website at:** https://notaite-by-dann.vercel.app/
 <br />
-**NOTE:** DM me on Twitter/X: @dannweeeee to reactivate the AI Feature
+**NOTE:** DM me on Twitter/X @dannweeeee to reactivate the AI Feature
 
 ## Features
 
 - **AI-Generated Thumbnails**: Enhance the visual appeal of notebooks with DALL·E, an AI model that generates thumbnails based on notebook titles.
 
-- **Auto-Completion with OpenAI**: Experience efficient notebook writing with OpenAI's auto complete assistance. Press `Shift + A` to leverage AI-powered auto-completion suggestions.
+- **Auto-Completion with OpenAI**: Experience efficient notebook writing with OpenAI's auto-complete assistance. Press `Shift + A` to leverage AI-powered auto-completion suggestions.
 
 - **Vercel AI SDK Integration**: Optimise deployment and hosting with the Vercel AI SDK.
 
@@ -55,7 +55,7 @@ Tools that I used:
 Clone the repository
 
 ```
-git clone https://github.com/dannweeeee/notion.git
+git clone https://github.com/dannweeeee/notaite.git
 ```
 
 ## Deployment

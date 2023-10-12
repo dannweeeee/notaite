@@ -1,12 +1,12 @@
 # NotAIte - AI Note-Taking Tool
 
-<img width="1440" alt="Screenshot 2023-10-10 at 10 04 43 PM" src="https://github.com/dannweeeee/notion/assets/42776950/793fe05f-f41f-4d59-88e9-5aa4ae67ea9c">
+<img width="1440" alt="Screenshot 2023-10-13 at 12 25 45 AM" src="https://github.com/dannweeeee/notaite/assets/42776950/c9bddb6d-88d5-4218-a55c-dd3f93f919c7">
 
 ## Overview
 
 The Full Stack Next.js 13 NotAIte is a Note-Taking Tool, enriched with artificial intelligence capabilities. Powered by an extensive tech stack including React, Next.js, TypeScript, DrizzleORM, Neon, Firebase, DALL·E, OpenAI, this project aims to deliver a sophisticated and feature-rich alternative.<br />
 <br />
-**Visit the Deployed Vercel Website at:** https://notion-by-dann.vercel.app/
+**Visit the Deployed Vercel Website at:** https://notaite-by-dann.vercel.app/
 <br />
 **NOTE:** DM me on Twitter/X: @dannweeeee to reactivate the AI Feature
 

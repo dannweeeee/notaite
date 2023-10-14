@@ -7,8 +7,8 @@ import Provider from '@/components/Provider'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Notion Clone',
-  description: 'A Next.js 13 Notion Clone Application by Dann'
+  title: 'NotAIte',
+  description: 'NotAIte - An AI Note-Taking Application by Dann'
 }
 
 export default function RootLayout({

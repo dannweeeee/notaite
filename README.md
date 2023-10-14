@@ -66,7 +66,7 @@ First install the dependencies with the following command:
 npm install
 ```
 
-Thereafter run the following command to run Threads locally:
+Thereafter run the following command to run NotAIte locally:
 
 ```
 npm run dev

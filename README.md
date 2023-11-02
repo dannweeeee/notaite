@@ -4,7 +4,7 @@
 
 ## Overview
 
-The Full Stack Next.js 13 NotAIte is a Note-Taking Tool, enriched with artificial intelligence capabilities. Powered by an extensive tech stack including React, Next.js, TypeScript, DrizzleORM, Neon, Firebase, DALL·E, OpenAI, this project aims to deliver a sophisticated and feature-rich alternative.<br />
+NotAIte is an Full Stack Note-Taking Tool, enriched with Artificial Intelligence capabilities. Powered by an extensive tech stack including React, Next.js, TypeScript, DrizzleORM, Neon, Firebase, DALL·E, OpenAI.<br />
 <br />
 **Visit the Deployed Vercel Website at:** https://notaite-by-dann.vercel.app/
 <br />
